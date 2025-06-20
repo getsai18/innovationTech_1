@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="422.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="60.0" layoutY="39.0" text="Solicitar Modificación">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="140.0" text="Mesa" />
+      <Label layoutX="60.0" layoutY="250.0" text="Tipo de modificación" />
+      <Label layoutX="58.0" layoutY="364.0" text="Detalles" />
+      <MenuButton layoutX="60.0" layoutY="286.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="299.0" text="Quitar producto">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <TextArea layoutX="60.0" layoutY="401.0" prefHeight="162.0" prefWidth="299.0" />
+      <Button layoutX="111.0" layoutY="579.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="217.0" style="-fx-background-color: #00203E;" text="Enviar solicitud" textFill="#ebebeb" />
+      <MenuButton layoutX="60.0" layoutY="168.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="299.0" text="5">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+   </children>
+</Pane>

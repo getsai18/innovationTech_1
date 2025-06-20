@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="800.0" prefWidth="263.0" style="-fx-background-color: #CECBCA;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="77.0" layoutY="166.0" text="Mesero">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="58.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/mesero.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="318.0" layoutY="30.0" style="-fx-background-color: white;" text="Mesas Asignadas">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0ede3" height="621.0" layoutX="226.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="549.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="92.0" layoutX="348.0" layoutY="165.0" stroke="BLACK" strokeType="INSIDE" width="304.0" />
+            <Label layoutX="359.0" layoutY="176.0" text="Mesa 5">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="494.0" layoutY="200.0" mnemonicParsing="false" style="-fx-background-color: #057FF1;" text="Cerrar Cuenta" />
+            <Label layoutX="357.0" layoutY="208.0" text="2 Personas">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="359.0" layoutY="238.0" text="12:00">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="92.0" layoutX="348.0" layoutY="283.0" stroke="BLACK" strokeType="INSIDE" width="304.0" />
+            <Button layoutX="500.0" layoutY="314.0" mnemonicParsing="false" style="-fx-background-color: #057FF1;" text="Cerrar Cuenta" />
+            <Label layoutX="359.0" layoutY="298.0" text="Mesa 4">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="357.0" layoutY="322.0" text="4 Personas">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="359.0" layoutY="352.0" text="12:00">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="92.0" layoutX="348.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="304.0" />
+            <Label layoutX="359.0" layoutY="418.0" text="Mesa 3">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="357.0" layoutY="446.0" text="5 Personas">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="359.0" layoutY="476.0" text="12:00">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="500.0" layoutY="431.0" mnemonicParsing="false" style="-fx-background-color: #057FF1;" text="Cerrar Cuenta" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="92.0" layoutX="348.0" layoutY="513.0" stroke="BLACK" strokeType="INSIDE" width="304.0" />
+            <Label layoutX="359.0" layoutY="532.0" text="Mesa 2">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="357.0" layoutY="559.0" text="6 Personas">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="359.0" layoutY="586.0" text="12:00">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="500.0" layoutY="544.0" mnemonicParsing="false" style="-fx-background-color: #057FF1;" text="Cerrar Cuenta" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="92.0" layoutX="349.0" layoutY="625.0" stroke="BLACK" strokeType="INSIDE" width="304.0" />
+            <Label layoutX="359.0" layoutY="643.0" text="Mesa 1">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="357.0" layoutY="671.0" text="4 Personas">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="359.0" layoutY="701.0" text="12:00">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="509.0" layoutY="664.0" mnemonicParsing="false" style="-fx-background-color: #057FF1;" text="Cerrar Cuenta" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2d3d3" height="100.0" layoutX="809.0" layoutY="30.0" stroke="BLACK" strokeType="INSIDE" width="114.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="57.0" layoutX="828.0" layoutY="68.0" stroke="BLACK" strokeType="INSIDE" width="77.0" />
+            <ImageView fitHeight="37.0" fitWidth="42.0" layoutX="845.0" layoutY="78.0">
+               <image>
+                  <Image url="@imagenes/historial.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="836.0" layoutY="47.0" text="Historial">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

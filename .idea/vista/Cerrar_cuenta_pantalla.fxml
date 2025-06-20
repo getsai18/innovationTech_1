@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="373.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="27.0" layoutY="53.0" text="Cerrar cuenta ">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="142.0" prefHeight="21.0" prefWidth="294.0" text="Agua de jamaica                        $45">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="316.0" prefHeight="23.0" prefWidth="294.0" text="Total                              $150">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="191.0" prefHeight="21.0" prefWidth="294.0" text="Flan                                            $45">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="240.0" prefHeight="21.0" prefWidth="294.0" text="Enchiladas                                  $45">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="102.0" layoutY="386.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" style="-fx-background-color: #00203E;" text="Pagar" textFill="WHITE" />
+      <Label layoutX="244.0" layoutY="53.0" text="mesa 5">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
